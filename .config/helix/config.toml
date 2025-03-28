@@ -1,0 +1,29 @@
+theme = "catppuccin_mocha"
+#theme = "tokyonight"
+
+[editor]
+# highlight the line the cursor is at
+cursorline = true
+completion-trigger-len = 3
+
+[editor.statusline]
+left = ["mode", "spinner"]
+center = ["file-absolute-path"]
+right = ["diagnostics", "selections", "position", "file-type", "version-control"]
+mode.normal = "Normal"
+mode.insert = "Insert"
+mode.select = "Select"
+
+[editor.cursor-shape]
+insert = "bar"
+
+[editor.auto-save]
+focus-lost = false
+after-delay.enable = false
+after-delay.timeout = 3000
+
+[editor.indent-guides]
+render = true
+#character = "⌁"
+character = "†"
+#character = "·"
