@@ -5,8 +5,8 @@ rm -r ${HOME}/.config/zellij
 rm -r ${HOME}/.config/starship
 rm -r ${HOME}/.config/helix
 
-# create dotfile symlinks
-stow --target=${HOME}/.config .config
+# create dotfile symlinks - Assumes this directory is ~/dotfiles
+stow -S .config -S .bashrc
 
 echo "To remove the dotfile configuration run:"
-echo "    stow -D --target=$HOME/.config .config"
+echo "    stow -D .config"
