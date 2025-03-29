@@ -5,6 +5,7 @@ theme = "catppuccin_mocha"
 # highlight the line the cursor is at
 cursorline = true
 completion-trigger-len = 3
+mouse = false
 
 [editor.statusline]
 left = ["mode", "spinner"]

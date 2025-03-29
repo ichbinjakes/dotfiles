@@ -19,6 +19,6 @@ gnome-iso:
 	nix-build \
 		'<nixpkgs/nixos>' \
 		-A config.system.build.isoImage \
-		-I nixos-config=configuration.nix
+		-I nixos-config=os/gnome/from-scratch.nix
 
 # Create a docker container with dependencies and configuration pre-installed.
