@@ -16,6 +16,8 @@ alias ca='clear &&'
 alias gs='git status'
 alias gd='git diff'
 alias ga='git add'
+alias gc='git commit -m'
+alias gpo='git push origin'
 
 # General aliases
 alias t='tree -a -I .git/'
