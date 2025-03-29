@@ -123,6 +123,9 @@ export PATH=$PATH:/opt/nvim-linux64/bin
 export PATH=$PATH:~/.local/bin
 export PATH=~/.npm-global/bin:$PATH
 
+export VISUAL=hx
+export EDITOR=$VISUAL
+
 # This should go at the end of the file!
 export STARSHIP_CONFIG=${HOME}/.config/starship/config.toml
 eval "$(starship init bash)"

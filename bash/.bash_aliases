@@ -12,5 +12,10 @@ alias rum='docker run'
 alias c=clear
 alias ca='clear &&'
 
+# Git aliases
+alias gs='git status'
+alias gd='git diff'
+alias ga='git add'
+
 # General aliases
 alias t='tree -a -I .git/'
