@@ -8,3 +8,9 @@ alias k=kubectl
 alias dogs='docker logs'
 alias rum='docker run'
 
+# clear alias
+alias c=clear
+alias ca='clear &&'
+
+# General aliases
+alias t='tree -a -I .git/'
