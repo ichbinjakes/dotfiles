@@ -28,8 +28,9 @@ A **shell prompt** is what you see when you type a command. It can show a lot of
 | delta | A syntax-highlighting pager for git, diff, grep, and blame output |
 | bat   | A replacement for cat with syntax highlighting and git integraton |
 | helix | A post-modern modal text editor.                                  |
+| k9s   | Kubernetes CLI To Manage Your Clusters In Style!                  |
 
 1. https://github.com/dandavison/delta
 2. https://github.com/sharkdp/bat
 3. https://github.com/helix-editor/helix
-
+4. https://github.com/derailed/k9s
